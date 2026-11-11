@@ -1,0 +1,12 @@
+{
+  "versionCode": 29,
+  "versionName": "2.9.0-debug",
+  "sizeMB": 147.89,
+  "sizeBytes": 155073454,
+  "sha256": "f6fe08d56b34671417822f72de1538ef1395a194fc4d87d68893817332ad822d",
+  "downloadUrl": "/api/v1/app/download",
+  "apkUrl": "/api/v1/app/download",
+  "notes": "تصغير حجم التطبيق بتحويل البوسترات إلى WebP، وإصلاح انتقال المشاهدة بين السيرفرات، وترتيبها تلقائياً حسب الكفاءة.",
+  "endpointUrl": "https://raw.githubusercontent.com/todaytodie2-collab/dahab-endpoint/main/server_url.txt",
+  "publishedAt": "2026-11-11"
+}
