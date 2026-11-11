@@ -1,12 +1,12 @@
 {
   "versionCode": 29,
   "versionName": "2.9.0-debug",
-  "sizeMB": 148.7,
-  "sizeBytes": 155918137,
-  "sha256": "bcad7a3a8ddd363d6b5c5d3801478e59319dd55f34f3caf5380a6e3895c0ddb8",
+  "sizeMB": 148.71,
+  "sizeBytes": 155929313,
+  "sha256": "ad5ba63be77d6205659ec111fbcb7e4f5ba632c522dc2b9c5c955bc2e6c632c5",
   "downloadUrl": "/api/v1/app/download",
   "apkUrl": "/api/v1/app/download",
-  "notes": "تصغير حجم التطبيق بتحويل البوسترات إلى WebP، وإصلاح انتقال المشاهدة بين السيرفرات، وترتيبها تلقائياً حسب الكفاءة.",
   "endpointUrl": "https://raw.githubusercontent.com/todaytodie2-collab/dahab-endpoint/main/server_url.txt",
+  "notes": "إصلاح النفق والتحديث، ١٢٠ عاملاً لتجهيز تذاكر المشاهدة، تجديد دوري، وإلغاء قسم اليوتيوب.",
   "publishedAt": "2026-11-11"
 }
