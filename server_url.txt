@@ -1,1 +1,1 @@
-https://lifetime-occupational-sims-workforce.trycloudflare.com
+https://api.trycloudflare.com
