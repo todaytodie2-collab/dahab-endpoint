@@ -1,1 +1,1 @@
-https://resident-stuff-undefined-twin.trycloudflare.com
+https://api.trycloudflare.com
