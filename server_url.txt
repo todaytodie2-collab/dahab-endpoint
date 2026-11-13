@@ -1,1 +1,1 @@
-https://api.trycloudflare.com
+https://guardian-transparent-duty-sept.trycloudflare.com
