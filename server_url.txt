@@ -1,1 +1,1 @@
-https://everywhere-pilot-reasons-food.trycloudflare.com
+https://api.trycloudflare.com
