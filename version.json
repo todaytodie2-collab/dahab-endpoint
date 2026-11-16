@@ -1,12 +1,12 @@
 {
-  "versionCode": 29,
-  "versionName": "2.9.0-debug",
-  "sizeMB": 148.71,
-  "sizeBytes": 155929313,
-  "sha256": "ad5ba63be77d6205659ec111fbcb7e4f5ba632c522dc2b9c5c955bc2e6c632c5",
+  "versionCode": 30,
+  "versionName": "2.9.1-debug",
+  "sizeMB": 170.5,
+  "sizeBytes": 178777333,
+  "sha256": "6d041046b36a4f57013a88ab5704022461cf7548ec12a740a3f1e377ed2657f8",
   "downloadUrl": "/api/v1/app/download",
   "apkUrl": "/api/v1/app/download",
   "endpointUrl": "https://raw.githubusercontent.com/todaytodie2-collab/dahab-endpoint/main/server_url.txt",
-  "notes": "إصلاح النفق والتحديث، ١٢٠ عاملاً لتجهيز تذاكر المشاهدة، تجديد دوري، وإلغاء قسم اليوتيوب.",
-  "publishedAt": "2026-11-11"
+  "notes": "إصلاح الصوت (FfmpegAudioRenderer + تثبيت مستوى المشغّل)، 211 لقطة حقيقية جديدة، 98 سيرفر مشاهدة مباشر، وتحديث الكتالوج 776 عملاً.",
+  "publishedAt": "2026-11-15"
 }
