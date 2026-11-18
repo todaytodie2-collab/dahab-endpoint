@@ -1,12 +1,12 @@
 {
-  "versionCode": 34,
-  "versionName": "2.9.5-debug",
+  "versionCode": 35,
+  "versionName": "2.9.6-debug",
   "sizeMB": 158.1,
-  "sizeBytes": 165819840,
-  "sha256": "bdc5bc50ac068bd97ece2cfe1d42a935ad3200d54d7943fdef55804df58ea607",
+  "sizeBytes": 165827159,
+  "sha256": "4651c43be54e4073285620b6608d8ff9d322e8eeddb186e0f7c860a2cfd916a3",
   "downloadUrl": "/api/v1/app/download",
   "apkUrl": "/api/v1/app/download",
   "endpointUrl": "https://raw.githubusercontent.com/todaytodie2-collab/dahab-endpoint/main/server_url.txt",
-  "notes": "تحديث شامل v2.9.5: تفعيل الإشعارات الخارجية ومنع التكرار، طلب جميع الأذونات تلقائياً، تحديث المشغل v1.2.2 (السطوع والإضاءة السينمائية وM3U8 والملفات)، والأيقونات الجديدة وربط الحساب بسيريال الجهاز.",
+  "notes": "تحديث شامل v2.9.6: شاشة ترحيب ثلاثية الأبعاد متطورة بأنيميشن ذهبي، الإشعارات الخارجية ومنع التكرار، طلب الأذونات تلقائياً، والمشغل v1.2.2.",
   "publishedAt": "2026-11-18"
 }
