@@ -1,9 +1,9 @@
 {
   "versionCode": 35,
   "versionName": "2.9.6-debug",
-  "sizeMB": 158.1,
-  "sizeBytes": 165827159,
-  "sha256": "4651c43be54e4073285620b6608d8ff9d322e8eeddb186e0f7c860a2cfd916a3",
+  "sizeMB": 158.4,
+  "sizeBytes": 166063605,
+  "sha256": "becb40d1e53acbe054caf82af8c3f98d831feb54daf57718780798adc7118001",
   "downloadUrl": "/api/v1/app/download",
   "apkUrl": "/api/v1/app/download",
   "endpointUrl": "https://raw.githubusercontent.com/todaytodie2-collab/dahab-endpoint/main/server_url.txt",
