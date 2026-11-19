@@ -1,12 +1,12 @@
 {
-  "versionCode": 36,
-  "versionName": "2.9.7-debug",
+  "versionCode": 37,
+  "versionName": "2.9.8-debug",
   "sizeMB": 158.1,
-  "sizeBytes": 165831201,
-  "sha256": "be31db1725d51fcde3c5e98563821fe4529ff950849e0205f373253485d1a561",
+  "sizeBytes": 165831513,
+  "sha256": "6b5aa32ee7c4c2d6007dcfe34ea22121ea4385bd30c46d36d949ec4427b29e4d",
   "downloadUrl": "/api/v1/app/download",
   "apkUrl": "/api/v1/app/download",
   "endpointUrl": "https://raw.githubusercontent.com/todaytodie2-collab/dahab-endpoint/main/server_url.txt",
-  "notes": "تحديث الهاتف v2.9.7: تخطيط متجاوب للوضع الرأسي (Portrait) في صفحة تفاصيل العمل، التفاف أزرار المشاهدة والمفضلة وقائمتي، وإخفاء شريط التنقل السفلي داخل التفاصيل.",
+  "notes": "تحديث الهاتف والتلفاز v2.9.8: إضافة قسم «أفلام كلاسيكية» حصرياً للأفلام العربية قبل عام 2015 (68 فيلماً بدون تكرار في أفلام عربية) مع تصنيف تلقائي في محرك الكشط والسيرفر حسب سنة إنتاج العمل.",
   "publishedAt": "2026-11-19"
 }
