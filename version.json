@@ -1,12 +1,12 @@
 {
-  "versionCode": 35,
-  "versionName": "2.9.6-debug",
-  "sizeMB": 158.4,
-  "sizeBytes": 166063605,
-  "sha256": "becb40d1e53acbe054caf82af8c3f98d831feb54daf57718780798adc7118001",
+  "versionCode": 36,
+  "versionName": "2.9.7-debug",
+  "sizeMB": 158.1,
+  "sizeBytes": 165831201,
+  "sha256": "be31db1725d51fcde3c5e98563821fe4529ff950849e0205f373253485d1a561",
   "downloadUrl": "/api/v1/app/download",
   "apkUrl": "/api/v1/app/download",
   "endpointUrl": "https://raw.githubusercontent.com/todaytodie2-collab/dahab-endpoint/main/server_url.txt",
-  "notes": "تحديث شامل v2.9.6: شاشة ترحيب ثلاثية الأبعاد متطورة بأنيميشن ذهبي، الإشعارات الخارجية ومنع التكرار، طلب الأذونات تلقائياً، والمشغل v1.2.2.",
-  "publishedAt": "2026-11-18"
+  "notes": "تحديث الهاتف v2.9.7: تخطيط متجاوب للوضع الرأسي (Portrait) في صفحة تفاصيل العمل، التفاف أزرار المشاهدة والمفضلة وقائمتي، وإخفاء شريط التنقل السفلي داخل التفاصيل.",
+  "publishedAt": "2026-11-19"
 }
