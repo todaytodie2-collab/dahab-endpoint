@@ -1,12 +1,12 @@
 {
-  "versionCode": 39,
-  "versionName": "2.9.10-debug",
+  "versionCode": 40,
+  "versionName": "2.9.11-debug",
   "sizeMB": 158.2,
   "sizeBytes": 165845953,
-  "sha256": "637d0585ecce7aab5d68b910a66ed023eb9f9084acd59966bd0a55fe5ae7d2ee",
+  "sha256": "68f36c9b06267d5da662ecd0e713b1be99ff63543726792a3e401cda91b654f3",
   "downloadUrl": "/api/v1/app/download",
   "apkUrl": "/api/v1/app/download",
   "endpointUrl": "https://raw.githubusercontent.com/todaytodie2-collab/dahab-endpoint/main/server_url.txt",
-  "notes": "إصلاح ظهور عروض المصارعة في أقسام الأفلام والمسلسلات — كل العروض بقت في قسم «عروض المصارعة»، مع الحفاظ على باقي الإصلاحات والراديو.",
+  "notes": "لوجو مميز لكل محطة راديو + عرض الحروف العربية بشكل صحيح، مع الحفاظ على كل الإصلاحات السابقة.",
   "publishedAt": "2026-11-19"
 }
