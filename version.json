@@ -1,12 +1,12 @@
 {
-  "versionCode": 37,
-  "versionName": "2.9.8-debug",
-  "sizeMB": 158.1,
-  "sizeBytes": 165831513,
-  "sha256": "6b5aa32ee7c4c2d6007dcfe34ea22121ea4385bd30c46d36d949ec4427b29e4d",
+  "versionCode": 38,
+  "versionName": "2.9.9-debug",
+  "sizeMB": 158.2,
+  "sizeBytes": 165856664,
+  "sha256": "9caafb332ad46122a6656a5ace521f972509e8b5ec217276bfc84c897d67602a",
   "downloadUrl": "/api/v1/app/download",
   "apkUrl": "/api/v1/app/download",
   "endpointUrl": "https://raw.githubusercontent.com/todaytodie2-collab/dahab-endpoint/main/server_url.txt",
-  "notes": "تحديث الهاتف والتلفاز v2.9.8: إضافة قسم «أفلام كلاسيكية» حصرياً للأفلام العربية قبل عام 2015 (68 فيلماً بدون تكرار في أفلام عربية) مع تصنيف تلقائي في محرك الكشط والسيرفر حسب سنة إنتاج العمل.",
+  "notes": "تحديث الهاتف والتلفاز v2.9.9 + مشغل دهب برو v1.3.0: دمج 6 مصادر APIs مجانية (نتائج وملخصات SportScore/Scorebat، مواعيد حلقات TVMaze، جدول Jikan/AniList وشارات FillerLists، وإذاعات Radio Browser المباشرة)، مع ترقية المشغل لقراءة وتشغيل كافة صيغ الفيديو والصوت المحلية وملفات الجهاز.",
   "publishedAt": "2026-11-19"
 }
