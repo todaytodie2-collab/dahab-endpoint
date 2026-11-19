@@ -1,12 +1,12 @@
 {
-  "versionCode": 43,
-  "versionName": "2.9.14-debug",
-  "sizeMB": 160.5,
-  "sizeBytes": 168314629,
-  "sha256": "49e58ddfb236820407cb1d37bbeca8032903fe417f868e74abf03cb78ed280ad",
+  "versionCode": 44,
+  "versionName": "2.9.15-debug",
+  "sizeMB": 160.8,
+  "sizeBytes": 168563634,
+  "sha256": "51b14765d02f052d8474f3c8fde8a0f026c15291d5a0c6997d33bafa8f7fe7e8",
   "downloadUrl": "/api/v1/app/download",
   "apkUrl": "/api/v1/app/download",
   "endpointUrl": "https://raw.githubusercontent.com/todaytodie2-collab/dahab-endpoint/main/server_url.txt",
-  "notes": "إضافة إعداد «دائماً استخدم مشغل دهب برو» للتلفزيونات اللي مفيها خيار فتح افتراضياً، مع الحفاظ على كل اللوجوهات والإصلاحات.",
+  "notes": "تشغيل مباشر من المشغل الخارجي فقط مع إلغاء المشغل الداخلي، وتصميم مشغل مطابق للاعتماد، وحل مشكلة Spider-Man Brand New Day.",
   "publishedAt": "2026-11-19"
 }
