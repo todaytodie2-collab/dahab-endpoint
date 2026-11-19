@@ -1,12 +1,12 @@
 {
-  "versionCode": 40,
-  "versionName": "2.9.11-debug",
+  "versionCode": 41,
+  "versionName": "2.9.12-debug",
   "sizeMB": 158.2,
   "sizeBytes": 165845953,
-  "sha256": "68f36c9b06267d5da662ecd0e713b1be99ff63543726792a3e401cda91b654f3",
+  "sha256": "4cead17705aa56c9dd51f8232067fd94d6739be68643b4e18178e36e6af6edb3",
   "downloadUrl": "/api/v1/app/download",
   "apkUrl": "/api/v1/app/download",
   "endpointUrl": "https://raw.githubusercontent.com/todaytodie2-collab/dahab-endpoint/main/server_url.txt",
-  "notes": "لوجو مميز لكل محطة راديو + عرض الحروف العربية بشكل صحيح، مع الحفاظ على كل الإصلاحات السابقة.",
+  "notes": "لوجوهات مميزة وواضحة لكل محطة راديو، مع كل الإصلاحات السابقة.",
   "publishedAt": "2026-11-19"
 }
