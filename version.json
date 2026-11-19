@@ -1,12 +1,12 @@
 {
-  "versionCode": 41,
-  "versionName": "2.9.12-debug",
-  "sizeMB": 158.2,
-  "sizeBytes": 165845953,
-  "sha256": "4cead17705aa56c9dd51f8232067fd94d6739be68643b4e18178e36e6af6edb3",
+  "versionCode": 42,
+  "versionName": "2.9.13-debug",
+  "sizeMB": 160.5,
+  "sizeBytes": 168310537,
+  "sha256": "9c629fc2a18349fa154fecdf14fc6444aa66f90212d25964f823d6f33b5fb769",
   "downloadUrl": "/api/v1/app/download",
   "apkUrl": "/api/v1/app/download",
   "endpointUrl": "https://raw.githubusercontent.com/todaytodie2-collab/dahab-endpoint/main/server_url.txt",
-  "notes": "لوجوهات مميزة وواضحة لكل محطة راديو، مع كل الإصلاحات السابقة.",
+  "notes": "تركيب لوجوهات القنوات المقصوصة من بوستر المستخدم بدل اللوجوهات العامة، مع الحفاظ على كل الإصلاحات السابقة.",
   "publishedAt": "2026-11-19"
 }
