@@ -1,12 +1,12 @@
 {
-  "versionCode": 44,
-  "versionName": "2.9.15-debug",
-  "sizeMB": 160.8,
-  "sizeBytes": 168563634,
-  "sha256": "51b14765d02f052d8474f3c8fde8a0f026c15291d5a0c6997d33bafa8f7fe7e8",
+  "versionCode": 45,
+  "versionName": "2.10.0",
+  "sizeMB": 85.01,
+  "sizeBytes": 89139705,
+  "sha256": "07d0dd0b9f2a52dd9ae89ceacb85545e9f97ae7a8c36da31e43f144976fbe5a5",
   "downloadUrl": "/api/v1/app/download",
   "apkUrl": "/api/v1/app/download",
   "endpointUrl": "https://raw.githubusercontent.com/todaytodie2-collab/dahab-endpoint/main/server_url.txt",
-  "notes": "تشغيل مباشر من المشغل الخارجي فقط مع إلغاء المشغل الداخلي، وتصميم مشغل مطابق للاعتماد، وحل مشكلة Spider-Man Brand New Day.",
-  "publishedAt": "2026-11-19"
+  "notes": "إصدار v2.10.0 + Dahab Player Pro v1.4.0: تقليص حجم التطبيق بنسبة 47.1% (85.01 MB) عبر WebP وGZIP وR8، تحسينات أداء الأجهزة الضعيفة، إعادة تصميم المشغل الخارجي (Obsidian & Amber Glass)، دعم الترجمة العربية التلقائية والسيرفرات الاحتياطية وقنوات iptv-org مع منع التكرار.",
+  "publishedAt": "2026-11-21"
 }
