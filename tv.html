@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="theme-color" content="#09090B">
+    <title>دهب TV للشاشات الذكية | جارٍ تحميل ملف APK...</title>
+    <style>
+        * { box-sizing: border-box; }
+        html, body {
+            margin: 0; padding: 0; width: 100%; min-height: 100vh;
+            background: #09090B; color: #F8FAFC;
+            font-family: 'Tajawal', 'Cairo', 'Segoe UI', Tahoma, system-ui, sans-serif;
+            display: flex; align-items: center; justify-content: center;
+            overflow-x: hidden;
+        }
+        .card {
+            width: min(92vw, 520px);
+            background: #121217;
+            border: 2px solid #F5B915;
+            border-radius: 22px;
+            padding: 36px 26px;
+            text-align: center;
+            box-shadow: 0 18px 50px rgba(0, 0, 0, 0.55);
+        }
+        .crown {
+            width: 68px; height: 68px; border-radius: 20px; margin: 0 auto 18px;
+            background: linear-gradient(135deg, #FDE047, #F5B915 55%, #B45309);
+            color: #09090B;
+            display: flex; align-items: center; justify-content: center;
+            box-shadow: 0 10px 28px rgba(245, 185, 21, 0.34);
+        }
+        h1 { margin: 0 0 10px; font-size: 1.42rem; font-weight: 800; color: #F5B915; }
+        p { margin: 0 0 22px; color: #D4D4DD; font-size: 1rem; line-height: 1.65; }
+        .spinner {
+            width: 34px; height: 34px; margin: 0 auto 22px;
+            border: 3px solid rgba(245, 185, 21, 0.22);
+            border-top-color: #F5B915; border-radius: 50%;
+            animation: spin 0.85s linear infinite;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .btn {
+            display: inline-block; width: 100%; padding: 16px 22px;
+            border-radius: 14px; font-weight: 900; font-size: 1.08rem;
+            background: linear-gradient(135deg, #FBBF24, #F5B915 60%, #D97706);
+            color: #09090B; text-decoration: none;
+            box-shadow: 0 10px 28px rgba(245, 185, 21, 0.34);
+        }
+        .btn:focus, .btn:focus-visible { outline: 4px solid #FEF08A; outline-offset: 4px; }
+        .btn[aria-disabled="true"] { opacity: 0.6; pointer-events: none; }
+        .note { margin-top: 14px; font-size: 0.9rem; color: #A1A1AA; }
+    </style>
+</head>
+<body>
+    <main class="card">
+        <div class="crown" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="36" height="36" fill="currentColor">
+                <path d="M5 16L3 5l5.5 5L12 4l3.5 6L21 5l-2 11H5zm14 3c0 .6-.4 1-1 1H6c-.6 0-1-.4-1-1v-1h14v1z"/>
+            </svg>
+        </div>
+        <h1>دهب TV للشاشات الذكية — جارٍ بدء تحميل ملف الـ APK تلقائياً...</h1>
+        <p id="status-msg">يتم الآن توجيه برنامج Downloader إلى أحدث نسخة رسمية لشاشات Android TV.</p>
+        <div class="spinner" id="spinner" aria-hidden="true"></div>
+        <a href="#" id="fallback-btn" class="btn" aria-disabled="true" autofocus>اضغط هنا لتحميل نسخة الشاشات مباشرة</a>
+        <div class="note">اضغط هنا إذا لم يبدأ التحميل خلال 3 ثوانٍ (متوافق مع ريموت التلفزيون D-Pad).</div>
+    </main>
+    <script>
+        (function () {
+            'use strict';
+            var SUFFIX = '/api/v1/app/download?device=tv';
+            var RAW_FALLBACK = 'https://raw.githubusercontent.com/todaytodie2-collab/dahab-endpoint/main/server_url.txt';
+
+            function extractLiveUrl(text) {
+                if (!text) return '';
+                var m = String(text).match(/https:\/\/[a-zA-Z0-9-]+\.trycloudflare\.com/i);
+                if (m) return m[0].replace(/\/+$/, '');
+                var line = String(text).trim().split(/\s+/)[0] || '';
+                return /^https?:\/\//i.test(line) ? line.replace(/\/+$/, '') : '';
+            }
+
+            function fetchText(url) {
+                var sep = url.indexOf('?') === -1 ? '?' : '&';
+                return fetch(url + sep + 't=' + Date.now(), { cache: 'no-store' })
+                    .then(function (r) { return r.ok ? r.text() : ''; })
+                    .catch(function () { return ''; });
+            }
+
+            function go(liveUrl) {
+                var target = liveUrl + SUFFIX;
+                var btn = document.getElementById('fallback-btn');
+                if (btn) {
+                    btn.href = target;
+                    btn.removeAttribute('aria-disabled');
+                    try { btn.focus(); } catch (e) {}
+                }
+                var msg = document.getElementById('status-msg');
+                if (msg) msg.textContent = 'جارٍ تنزيل Dahab_TV_AndroidTV.apk مباشرة من السيرفر الرسمي...';
+                window.location.replace(target);
+            }
+
+            fetchText('./server_url.txt')
+                .then(function (txt) {
+                    var u = extractLiveUrl(txt);
+                    if (u) return u;
+                    return fetchText(RAW_FALLBACK).then(extractLiveUrl);
+                })
+                .then(function (liveUrl) {
+                    if (liveUrl) {
+                        go(liveUrl);
+                    } else {
+                        var msg = document.getElementById('status-msg');
+                        if (msg) msg.textContent = 'تعذر جلب عنوان السيرفر حالياً — أعد المحاولة بعد لحظات.';
+                        var sp = document.getElementById('spinner');
+                        if (sp) sp.style.display = 'none';
+                    }
+                });
+        })();
+    </script>
+</body>
+</html>
