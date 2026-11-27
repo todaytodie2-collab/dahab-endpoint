@@ -1,12 +1,47 @@
 {
-  "versionCode": 45,
-  "versionName": "2.10.0",
-  "sizeMB": 85.01,
-  "sizeBytes": 89139705,
-  "sha256": "07d0dd0b9f2a52dd9ae89ceacb85545e9f97ae7a8c36da31e43f144976fbe5a5",
-  "downloadUrl": "/api/v1/app/download",
-  "apkUrl": "/api/v1/app/download",
-  "endpointUrl": "https://raw.githubusercontent.com/todaytodie2-collab/dahab-endpoint/main/server_url.txt",
-  "notes": "إصدار v2.10.0 + Dahab Player Pro v1.4.0: تقليص حجم التطبيق بنسبة 47.1% (85.01 MB) عبر WebP وGZIP وR8، تحسينات أداء الأجهزة الضعيفة، إعادة تصميم المشغل الخارجي (Obsidian & Amber Glass)، دعم الترجمة العربية التلقائية والسيرفرات الاحتياطية وقنوات iptv-org مع منع التكرار.",
-  "publishedAt": "2026-11-21"
+    "versionCode":  56,
+    "versionName":  "2.14.2",
+    "sizeMB":  78.2,
+    "sizeBytes":  81998051,
+    "sha256":  "76766e8f86938edf456477ce5d2945b2a4d02f57f4407d1505641ccac0acd5af",
+    "downloadUrl":  "/api/v1/app/download",
+    "apkUrl":  "/api/v1/app/download",
+    "downloaderCode":  "5259588",
+    "externalUpdateUrl":  "https://todaytodie2-collab.github.io/dahab-endpoint/",
+    "changelog":  [
+                      "• إضافة ميزة «دليل البرامج المباشر — EPG»: عرض البرنامج الحالي (يُعرض الآن) والبرنامج التالي مع شريط تقدّم مباشر على قنوات البث المباشر، وعرض الجدول الكامل بالضغط المطوّل على أي قناة",
+                      "• توسعة البث المباشر لأكثر من 325+ قناة مفحوصة ومصنفة (عربي، رياضة، أفلام، أطفال، وثائقي، أخبار، ديني) مع فلتر عائلي صارم ودون أي تأثير على القنوات الأصلية",
+                      "• تفعيل دروع حماية البوسترات الأربعة في ImageLoader.kt: خطة طوارئ تلقائية عبر بروكسي السيرفر عند حظر أي صورة، دعم الروابط ذات الحروف العربية تلقائياً، ضمان عرض الصور على الشاشات القديمة، وإصلاح الروابط المختصرة",
+                      "• تحسينات في الأداء والتشغيل الفوري وفحص السلامة الرقمية SHA-256"
+                  ],
+    "playerVersionCode":  18,
+    "playerVersionName":  "1.6.4",
+    "playerSizeMB":  46.27,
+    "playerSizeBytes":  48519185,
+    "playerSha256":  "023dbd6be400f8f65ec3b19b65dc74b9028986304756fe424677d169fd7ef0cf",
+    "playerApkUrl":  "/api/player/apk",
+    "playerChangelog":  [
+                            "• إطلاق المحرك الهجين الشامل (Media3 ExoPlayer + libVLC 3.6.5 / FFmpeg) لدعم 100% من صيغ الفيديو والصوت والترجمة (WMV, WMA, RMVB, ASF, DivX, AV1, HEVC 10-bit, MPEG-2, MP2, AC-3, E-AC-3, DTS, TrueHD, APE, WavPack, AIFF, ASS/SSA)",
+                            "• تحويل تلقائي فوري لإنقاذ أي قناة بث مباشر أو ملف محلي يواجه خطأ كوديك أو غياب صوت/صورة دون انقطاع وبنفس الثانية",
+                            "• خيار يدوي جديد في «⚙ الإعدادات ← 🎛 محرك التشغيل» للتبديل الحي بين التلقائي الذكي والمحرك الشامل libVLC والمحرك السريع Media3",
+                            "• تطابق كامل في جميع أدوات التحكم: رفع الصوت حتى 200%، مزامنة الصوت والترجمة، التكبير بالسحب، السرعة، وPiP"
+                        ],
+    "playerPro":  {
+                      "packageName":  "com.dahab.player",
+                      "versionCode":  18,
+                      "versionName":  "1.6.4",
+                      "sizeMB":  46.27,
+                      "sizeBytes":  48519185,
+                      "sha256":  "023dbd6be400f8f65ec3b19b65dc74b9028986304756fe424677d169fd7ef0cf",
+                      "apkUrl":  "/api/player/apk",
+                      "changelog":  [
+                                        "• إطلاق المحرك الهجين الشامل (Media3 ExoPlayer + libVLC 3.6.5 / FFmpeg) لدعم 100% من صيغ الفيديو والصوت والترجمة (WMV, WMA, RMVB, ASF, DivX, AV1, HEVC 10-bit, MPEG-2, MP2, AC-3, E-AC-3, DTS, TrueHD, APE, WavPack, AIFF, ASS/SSA)",
+                                        "• تحويل تلقائي فوري لإنقاذ أي قناة بث مباشر أو ملف محلي يواجه خطأ كوديك أو غياب صوت/صورة دون انقطاع وبنفس الثانية",
+                                        "• خيار يدوي جديد في «⚙ الإعدادات ← 🎛 محرك التشغيل» للتبديل الحي بين التلقائي الذكي والمحرك الشامل libVLC والمحرك السريع Media3",
+                                        "• تطابق كامل في جميع أدوات التحكم: رفع الصوت حتى 200%، مزامنة الصوت والترجمة، التكبير بالسحب، السرعة، وPiP"
+                                    ]
+                  },
+    "endpointUrl":  "https://raw.githubusercontent.com/todaytodie2-collab/dahab-endpoint/main/server_url.txt",
+    "notes":  "• إضافة ميزة «دليل البرامج المباشر — EPG» (يُعرض الآن والتالي + الجدول الكامل بالضغط المطوّل)\n• توسعة البث المباشر لأكثر من 325+ قناة مفحوصة ومصنفة مع فلتر عائلي صارم\n• تفعيل دروع حماية البوسترات الأربعة وبروكسي الصور التلقائي على السيرفر\n• إطلاق مشغل دهب برو الشامل بالمحرك الهجين (Media3 + libVLC / FFmpeg) لدعم جميع صيغ الفيديو والصوت 100%",
+    "publishedAt":  "2026-11-27"
 }
